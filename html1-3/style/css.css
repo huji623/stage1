@@ -1,0 +1,55 @@
+body,
+html {
+    height: 100%;
+    padding: 20px;
+    margin: 0
+}
+
+.content,
+.logo,
+.left,
+.main,
+.right {
+    border: 1px solid #999;
+}
+
+.content {
+    background: #eee;
+    height: 500px;
+    padding: 20px;
+}
+
+.left {
+    background: white;
+    width: 200px;
+    float: left;
+    height: 130px;
+    margin: 20px;
+}
+
+.logo {
+    background: #eee;
+    margin: 20px 60px 20px 20px;
+    height: 80px;
+    width: 80px;
+}
+
+.logo p {
+    text-align: center;
+    line-height: 40px;
+}
+
+.main {
+    background: white;
+    height: 400px;
+    /* width: auto; */
+    margin: 20px 200px 20px 250px;
+}
+
+.right {
+    background: white;
+    width: 120px;
+    float: right;
+    height: 450px;
+    margin: 20px;
+}
